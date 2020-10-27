@@ -1,0 +1,4 @@
+my_f = open("text.txt", "w")
+line = (input("Введите данные: \n"))
+my_f.writelines(line)
+my_f.close()
